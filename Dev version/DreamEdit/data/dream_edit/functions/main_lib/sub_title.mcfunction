@@ -1,0 +1,33 @@
+kill @e[tag=de_tgrg3tfrg56h,type=area_effect_cloud]
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","0"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","1"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","2"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","3"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","4"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","5"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","6"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","7"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","8"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","9"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","10"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","11"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","12"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","13"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","14"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","15"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","16"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","17"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","18"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","19"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","20"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","21"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","22"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","23"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","24"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","25"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","26"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","27"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","28"]}
+summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_tgrg3tfrg56h","29"]}
+execute as @e[tag=de_tgrg3tfrg56h,sort=random,limit=1,type=area_effect_cloud] run function dream_edit:main_lib/sub_title0
+kill @e[tag=de_tgrg3tfrg56h,type=area_effect_cloud]

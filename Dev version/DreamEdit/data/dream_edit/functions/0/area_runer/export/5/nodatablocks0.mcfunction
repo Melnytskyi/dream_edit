@@ -1,0 +1,11 @@
+execute if block ~ ~ ~ allium run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"allium"}
+execute if block ~ ~ ~ andesite run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"andesite"}
+execute if block ~ ~ ~ bedrock run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"bedrock"}
+execute if block ~ ~ ~ barrier run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"barrier"}
+execute if block ~ ~ ~ blue_ice run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_ice"}
+execute if block ~ ~ ~ bookshelf run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"bookshelf"}
+execute if block ~ ~ ~ cactus run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cactus"}
+execute if block ~ ~ ~ bricks run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"bricks"}
+execute if block ~ ~ ~ chiseled_quartz_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"chiseled_quartz_block"}
+execute if block ~ ~ ~ clay run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"clay"}
+execute if block ~ ~ ~ cobweb run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cobweb"}

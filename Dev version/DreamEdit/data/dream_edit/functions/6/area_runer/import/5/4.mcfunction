@@ -1,0 +1,11 @@
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"cake"}}}]} run setblock ~ ~ ~ cake 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"clay"}}}]} run setblock ~ ~ ~ clay 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"dirt"}}}]} run setblock ~ ~ ~ dirt 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"fern"}}}]} run setblock ~ ~ ~ fern 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"fire"}}}]} run setblock ~ ~ ~ fire 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"kelp"}}}]} run setblock ~ ~ ~ kelp 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"lava"}}}]} run setblock ~ ~ ~ lava 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"rail"}}}]} run setblock ~ ~ ~ rail 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"vine"}}}]} run setblock ~ ~ ~ vine 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"sand"}}}]} run setblock ~ ~ ~ sand 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"snow"}}}]} run setblock ~ ~ ~ snow 

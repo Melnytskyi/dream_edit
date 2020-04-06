@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ black_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_carpet"}
+execute if block ~ ~ ~ blue_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_carpet"}
+execute if block ~ ~ ~ brown_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"brown_carpet"}
+execute if block ~ ~ ~ cyan_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cyan_carpet"}
+execute if block ~ ~ ~ gray_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gray_carpet"}
+execute if block ~ ~ ~ green_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"green_carpet"}
+execute if block ~ ~ ~ light_blue_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_blue_carpet"}
+execute if block ~ ~ ~ light_gray_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_gray_carpet"}
+execute if block ~ ~ ~ lime_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lime_carpet"}
+execute if block ~ ~ ~ magenta_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"magenta_carpet"}
+execute if block ~ ~ ~ orange_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_carpet"}
+execute if block ~ ~ ~ pink_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"pink_carpet"}
+execute if block ~ ~ ~ purple_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"purple_carpet"}
+execute if block ~ ~ ~ red_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_carpet"}
+execute if block ~ ~ ~ white_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_carpet"}
+execute if block ~ ~ ~ yellow_carpet run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"yellow_carpet"}

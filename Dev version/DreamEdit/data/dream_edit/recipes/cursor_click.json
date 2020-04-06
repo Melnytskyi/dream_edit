@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SRS",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:barrier"
+        },
+        "S": {
+            "item": "minecraft:structure_void"
+        },
+        "R": {
+            "item": "minecraft:repeating_command_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:debug_stick",
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ black_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/black_glazed_terracotta
+execute if block ~ ~ ~ black_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/black_glazed_terracotta
+execute if block ~ ~ ~ blue_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/blue_glazed_terracotta
+execute if block ~ ~ ~ brown_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/brown_glazed_terracotta
+execute if block ~ ~ ~ gray_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/gray_glazed_terracotta
+execute if block ~ ~ ~ green_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/green_glazed_terracotta
+execute if block ~ ~ ~ light_blue_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/light_blue_glazed_terracotta
+execute if block ~ ~ ~ light_gray_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/light_gray_glazed_terracotta
+execute if block ~ ~ ~ lime_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/lime_glazed_terracotta
+execute if block ~ ~ ~ magenta_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/magenta_glazed_terracotta
+execute if block ~ ~ ~ orange_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/orange_glazed_terracotta
+execute if block ~ ~ ~ pink_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/pink_glazed_terracotta
+execute if block ~ ~ ~ purple_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/purple_glazed_terracotta
+execute if block ~ ~ ~ white_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/white_glazed_terracotta
+execute if block ~ ~ ~ yellow_glazed_terracotta run function dream_edit:0/area_runer/export/5/glazed_terracotta/yellow_glazed_terracotta

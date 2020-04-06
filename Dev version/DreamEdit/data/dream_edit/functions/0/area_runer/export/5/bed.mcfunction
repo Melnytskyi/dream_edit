@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ black_bed run function dream_edit:0/area_runer/export/5/bed/black_bed
+execute if block ~ ~ ~ black_bed run function dream_edit:0/area_runer/export/5/bed/black_bed
+execute if block ~ ~ ~ blue_bed run function dream_edit:0/area_runer/export/5/bed/blue_bed
+execute if block ~ ~ ~ brown_bed run function dream_edit:0/area_runer/export/5/bed/brown_bed
+execute if block ~ ~ ~ gray_bed run function dream_edit:0/area_runer/export/5/bed/gray_bed
+execute if block ~ ~ ~ green_bed run function dream_edit:0/area_runer/export/5/bed/green_bed
+execute if block ~ ~ ~ light_blue_bed run function dream_edit:0/area_runer/export/5/bed/light_blue_bed
+execute if block ~ ~ ~ light_gray_bed run function dream_edit:0/area_runer/export/5/bed/light_gray_bed
+execute if block ~ ~ ~ lime_bed run function dream_edit:0/area_runer/export/5/bed/lime_bed
+execute if block ~ ~ ~ magenta_bed run function dream_edit:0/area_runer/export/5/bed/magenta_bed
+execute if block ~ ~ ~ orange_bed run function dream_edit:0/area_runer/export/5/bed/orange_bed
+execute if block ~ ~ ~ pink_bed run function dream_edit:0/area_runer/export/5/bed/pink_bed
+execute if block ~ ~ ~ purple_bed run function dream_edit:0/area_runer/export/5/bed/purple_bed
+execute if block ~ ~ ~ white_bed run function dream_edit:0/area_runer/export/5/bed/white_bed
+execute if block ~ ~ ~ yellow_bed run function dream_edit:0/area_runer/export/5/bed/yellow_bed

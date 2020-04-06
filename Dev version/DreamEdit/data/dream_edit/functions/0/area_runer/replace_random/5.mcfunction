@@ -1,0 +1,2 @@
+execute if score check_border de_cache matches 1 run function dream_edit:0/border/check_allow_position
+execute if score allow de_cache matches 1 if blocks ~ ~ ~ ~ ~ ~ 29999999 1 0 all run function dream_edit:0/area_runer/replace_random/replace_random

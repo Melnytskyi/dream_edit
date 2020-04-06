@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ dark_oak_button run function dream_edit:0/area_runer/export/5/dark_oak/button
+execute if block ~ ~ ~ dark_oak_door run function dream_edit:0/area_runer/export/5/dark_oak/door
+execute if block ~ ~ ~ dark_oak_fence_gate run function dream_edit:0/area_runer/export/5/dark_oak/fence_gate
+execute if block ~ ~ ~ dark_oak_fence run function dream_edit:0/area_runer/export/5/dark_oak/fence
+execute if block ~ ~ ~ dark_oak_leaves run function dream_edit:0/area_runer/export/5/dark_oak/leaves
+execute if block ~ ~ ~ dark_oak_log run function dream_edit:0/area_runer/export/5/dark_oak/log
+execute if block ~ ~ ~ dark_oak_planks run function dream_edit:0/area_runer/export/5/dark_oak/planks
+execute if block ~ ~ ~ dark_oak_pressure_plate run function dream_edit:0/area_runer/export/5/dark_oak/pressure_plate
+execute if block ~ ~ ~ dark_oak_sapling run function dream_edit:0/area_runer/export/5/dark_oak/sapling
+execute if block ~ ~ ~ dark_oak_sign run function dream_edit:0/area_runer/export/5/dark_oak/sign
+execute if block ~ ~ ~ dark_oak_slab run function dream_edit:0/area_runer/export/5/dark_oak/slab
+execute if block ~ ~ ~ dark_oak_stairs run function dream_edit:0/area_runer/export/5/dark_oak/stairs
+execute if block ~ ~ ~ dark_oak_trapdoor run function dream_edit:0/area_runer/export/5/dark_oak/trapdoor
+execute if block ~ ~ ~ dark_oak_wall_sign run function dream_edit:0/area_runer/export/5/dark_oak/wall_sign
+execute if block ~ ~ ~ dark_oak_wood run function dream_edit:0/area_runer/export/5/dark_oak/wood

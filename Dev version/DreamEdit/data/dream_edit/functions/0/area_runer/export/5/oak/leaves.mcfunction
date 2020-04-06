@@ -1,0 +1,10 @@
+data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"oak_leaves",d:{i:"0"},p:{i:"0"},}
+execute if block ~ ~ ~ oak_leaves[distance=1] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "1"
+execute if block ~ ~ ~ oak_leaves[distance=2] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "2"
+execute if block ~ ~ ~ oak_leaves[distance=3] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "3"
+execute if block ~ ~ ~ oak_leaves[distance=4] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "4"
+execute if block ~ ~ ~ oak_leaves[distance=5] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "5"
+execute if block ~ ~ ~ oak_leaves[distance=6] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "6"
+execute if block ~ ~ ~ oak_leaves[distance=7] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "7"
+execute if block ~ ~ ~ oak_leaves[persistent=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.p{i:"0"} set value "1"
+execute if block ~ ~ ~ oak_leaves[persistent=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.p{i:"0"} set value "0"

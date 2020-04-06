@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ campfire run function dream_edit:0/area_runer/export/5/data/campfire
+execute if block ~ ~ ~ blast_furnace run function dream_edit:0/area_runer/export/5/data/blast_furnace
+execute if block ~ ~ ~ barrel run function dream_edit:0/area_runer/export/5/data/barrel
+execute if block ~ ~ ~ furnace run function dream_edit:0/area_runer/export/5/data/furnace
+execute if block ~ ~ ~ repeating_command_block run function dream_edit:0/area_runer/export/5/data/repeating_command_block
+execute if block ~ ~ ~ chain_command_block run function dream_edit:0/area_runer/export/5/data/chain_command_block
+execute if block ~ ~ ~ command_block run function dream_edit:0/area_runer/export/5/data/command_block
+execute if block ~ ~ ~ chest run function dream_edit:0/area_runer/export/5/data/chest
+execute if block ~ ~ ~ dispenser run function dream_edit:0/area_runer/export/5/data/dispenser
+execute if block ~ ~ ~ dropper run function dream_edit:0/area_runer/export/5/data/dropper
+execute if block ~ ~ ~ hopper run function dream_edit:0/area_runer/export/5/data/hopper
+execute if block ~ ~ ~ trapped_chest run function dream_edit:0/area_runer/export/5/data/trapped_chest

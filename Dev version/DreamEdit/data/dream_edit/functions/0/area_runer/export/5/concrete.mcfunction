@@ -1,0 +1,17 @@
+execute if block ~ ~ ~ black_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_concrete"}
+execute if block ~ ~ ~ black_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_concrete"}
+execute if block ~ ~ ~ blue_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_concrete"}
+execute if block ~ ~ ~ brown_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"brown_concrete"}
+execute if block ~ ~ ~ cyan_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cyan_concrete"}
+execute if block ~ ~ ~ gray_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gray_concrete"}
+execute if block ~ ~ ~ green_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"green_concrete"}
+execute if block ~ ~ ~ light_blue_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_blue_concrete"}
+execute if block ~ ~ ~ light_gray_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_gray_concrete"}
+execute if block ~ ~ ~ lime_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lime_concrete"}
+execute if block ~ ~ ~ magenta_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"magenta_concrete"}
+execute if block ~ ~ ~ orange_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_concrete"}
+execute if block ~ ~ ~ pink_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"pink_concrete"}
+execute if block ~ ~ ~ purple_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"purple_concrete"}
+execute if block ~ ~ ~ red_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_concrete"}
+execute if block ~ ~ ~ white_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_concrete"}
+execute if block ~ ~ ~ yellow_concrete run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"yellow_concrete"}

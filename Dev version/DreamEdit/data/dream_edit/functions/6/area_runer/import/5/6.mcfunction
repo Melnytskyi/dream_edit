@@ -1,0 +1,11 @@
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"allium"}}}]} run setblock ~ ~ ~ allium 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"beacon"}}}]} run setblock ~ ~ ~ beacon 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"bricks"}}}]} run setblock ~ ~ ~ bricks 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"cactus"}}}]} run setblock ~ ~ ~ cactus 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"cobweb"}}}]} run setblock ~ ~ ~ cobweb 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"gravel"}}}]} run setblock ~ ~ ~ gravel 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"hopper"}}}]} run setblock ~ ~ ~ hopper 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"piston"}}}]} run setblock ~ ~ ~ piston 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"podzol"}}}]} run setblock ~ ~ ~ podzol 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"sponge"}}}]} run setblock ~ ~ ~ sponge 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"ladder"}}}]} run setblock ~ ~ ~ ladder 

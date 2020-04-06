@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ enchanting_table run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"enchanting_table"}
+execute if block ~ ~ ~ dead_bush run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"dead_bush"}
+execute if block ~ ~ ~ obsidian run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"obsidian"}
+execute if block ~ ~ ~ podzol run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"podzol"}
+execute if block ~ ~ ~ packed_ice run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"packed_ice"}
+execute if block ~ ~ ~ oxeye_daisy run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"oxeye_daisy"}
+execute if block ~ ~ ~ peony run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"peony"}
+execute if block ~ ~ ~ orange_tulip run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_tulip"}
+execute if block ~ ~ ~ soul_sand run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"soul_sand"}
+execute if block ~ ~ ~ snow_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"snow_block"}
+execute if block ~ ~ ~ slime_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"slime_block"}
+execute if block ~ ~ ~ sand run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"sand"}
+execute if block ~ ~ ~ red_tulip run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_tulip"}
+execute if block ~ ~ ~ red_sand run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_sand"}
+execute if block ~ ~ ~ white_tulip run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_tulip"}
+execute if block ~ ~ ~ torch run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"torch"}

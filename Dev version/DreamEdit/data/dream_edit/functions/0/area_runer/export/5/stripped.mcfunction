@@ -1,0 +1,39 @@
+execute if block ~ ~ ~ stripped_acacia_log[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_acacia_log",a:"x"}
+execute if block ~ ~ ~ stripped_acacia_wood[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_acacia_wood",a:"x"}
+execute if block ~ ~ ~ stripped_birch_log[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_birch_log",a:"x"}
+execute if block ~ ~ ~ stripped_birch_wood[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_birch_wood",a:"x"}
+execute if block ~ ~ ~ stripped_dark_oak_log[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_dark_oak_log",a:"x"}
+execute if block ~ ~ ~ stripped_dark_oak_wood[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_dark_oak_wood",a:"x"}
+execute if block ~ ~ ~ stripped_jungle_log[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_jungle_log",a:"x"}
+execute if block ~ ~ ~ stripped_jungle_wood[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_jungle_wood",a:"x"}
+execute if block ~ ~ ~ stripped_oak_log[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_oak_log",a:"x"}
+execute if block ~ ~ ~ stripped_oak_wood[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_oak_wood",a:"x"}
+execute if block ~ ~ ~ stripped_spruce_log[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_spruce_log",a:"x"}
+execute if block ~ ~ ~ stripped_spruce_wood[axis=x] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_spruce_wood",a:"x"}
+
+execute if block ~ ~ ~ stripped_acacia_log[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_acacia_log",a:"y"}
+execute if block ~ ~ ~ stripped_acacia_wood[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_acacia_wood",a:"y"}
+execute if block ~ ~ ~ stripped_birch_log[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_birch_log",a:"y"}
+execute if block ~ ~ ~ stripped_birch_wood[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_birch_wood",a:"y"}
+execute if block ~ ~ ~ stripped_dark_oak_log[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_dark_oak_log",a:"y"}
+execute if block ~ ~ ~ stripped_dark_oak_wood[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_dark_oak_wood",a:"y"}
+execute if block ~ ~ ~ stripped_jungle_log[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_jungle_log",a:"y"}
+execute if block ~ ~ ~ stripped_jungle_wood[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_jungle_wood",a:"y"}
+execute if block ~ ~ ~ stripped_oak_log[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_oak_log",a:"y"}
+execute if block ~ ~ ~ stripped_oak_wood[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_oak_wood",a:"y"}
+execute if block ~ ~ ~ stripped_spruce_log[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_spruce_log",a:"y"}
+execute if block ~ ~ ~ stripped_spruce_wood[axis=y] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_spruce_wood",a:"y"}
+
+
+execute if block ~ ~ ~ stripped_acacia_log[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_acacia_log",a:"z"}
+execute if block ~ ~ ~ stripped_acacia_wood[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_acacia_wood",a:"z"}
+execute if block ~ ~ ~ stripped_birch_log[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_birch_log",a:"z"}
+execute if block ~ ~ ~ stripped_birch_wood[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_birch_wood",a:"z"}
+execute if block ~ ~ ~ stripped_dark_oak_log[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_dark_oak_log",a:"z"}
+execute if block ~ ~ ~ stripped_dark_oak_wood[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_dark_oak_wood",a:"z"}
+execute if block ~ ~ ~ stripped_jungle_log[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_jungle_log",a:"z"}
+execute if block ~ ~ ~ stripped_jungle_wood[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_jungle_wood",a:"z"}
+execute if block ~ ~ ~ stripped_oak_log[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_oak_log",a:"z"}
+execute if block ~ ~ ~ stripped_oak_wood[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_oak_wood",a:"z"}
+execute if block ~ ~ ~ stripped_spruce_log[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_spruce_log",a:"z"}
+execute if block ~ ~ ~ stripped_spruce_wood[axis=z] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"stripped_spruce_wood",a:"z"}

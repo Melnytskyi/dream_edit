@@ -1,0 +1,3 @@
+tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"{{","color":"dark_green","bold":true},{"text":"Dream Edit Manual","color":"dark_aqua","bold":true},{"text":"}}\n\n","color":"dark_green","bold":true},{"translate":"dream_edit.guide.creator"},{"text":" "},{"translate":"dream_edit.menu.back","color":"dark_red","clickEvent":{"action":"run_command","value":"/function dream_edit:guide/university/manual"}}]
+execute if score gamerule de_cache matches 0 store result score gamerule de_cache run gamerule sendCommandFeedback
+gamerule sendCommandFeedback false

@@ -1,0 +1,2 @@
+execute as @e[tag=de_zo3212qrr,limit=1] at @s unless entity @e[tag=de_54rtgpreoigergt] run function dream_edit:3/point/3
+execute as @e[tag=de_zo3212qrr,limit=1] at @s if entity @e[tag=de_54rtgpreoigergt,tag=de_apool_0] unless entity @e[tag=de_54rtgpreoigergt,tag=de_apool_1] run function dream_edit:3/point/4

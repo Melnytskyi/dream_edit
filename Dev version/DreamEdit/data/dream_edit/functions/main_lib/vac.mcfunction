@@ -1,0 +1,1 @@
+scoreboard players set VAC de_cache 1

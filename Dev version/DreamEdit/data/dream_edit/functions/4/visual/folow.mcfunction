@@ -1,0 +1,1 @@
+execute as @s[type=armor_stand] run function dream_edit:4/visual/armor_stand/loop

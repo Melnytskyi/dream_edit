@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ birch_button run function dream_edit:0/area_runer/export/5/birch/button
+execute if block ~ ~ ~ birch_door run function dream_edit:0/area_runer/export/5/birch/door
+execute if block ~ ~ ~ birch_fence_gate run function dream_edit:0/area_runer/export/5/birch/fence_gate
+execute if block ~ ~ ~ birch_fence run function dream_edit:0/area_runer/export/5/birch/fence
+execute if block ~ ~ ~ birch_leaves run function dream_edit:0/area_runer/export/5/birch/leaves
+execute if block ~ ~ ~ birch_log run function dream_edit:0/area_runer/export/5/birch/log
+execute if block ~ ~ ~ birch_planks run function dream_edit:0/area_runer/export/5/birch/planks
+execute if block ~ ~ ~ birch_pressure_plate run function dream_edit:0/area_runer/export/5/birch/pressure_plate
+execute if block ~ ~ ~ birch_sapling run function dream_edit:0/area_runer/export/5/birch/sapling
+execute if block ~ ~ ~ birch_sign run function dream_edit:0/area_runer/export/5/birch/sign
+execute if block ~ ~ ~ birch_slab run function dream_edit:0/area_runer/export/5/birch/slab
+execute if block ~ ~ ~ birch_stairs run function dream_edit:0/area_runer/export/5/birch/stairs
+execute if block ~ ~ ~ birch_trapdoor run function dream_edit:0/area_runer/export/5/birch/trapdoor
+execute if block ~ ~ ~ birch_wall_sign run function dream_edit:0/area_runer/export/5/birch/wall_sign
+execute if block ~ ~ ~ birch_wood run function dream_edit:0/area_runer/export/5/birch/wood

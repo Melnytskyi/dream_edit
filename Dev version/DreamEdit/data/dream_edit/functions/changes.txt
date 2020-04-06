@@ -1,0 +1,2 @@
+fixed false rotation on cloning
+added manuals on main menu

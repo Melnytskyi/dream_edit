@@ -1,0 +1,11 @@
+data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cobblestone_wall",n:{i:"0"},e:{i:"0"},we:{i:"0"},s:{i:"0"},w:{i:"0"},}
+execute if block ~ ~ ~ cobblestone_wall[north=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.n{i:"0"} set value "1"
+execute if block ~ ~ ~ cobblestone_wall[east=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.e{i:"0"} set value "1"
+execute if block ~ ~ ~ cobblestone_wall[west=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.we{i:"0"} set value "1"
+execute if block ~ ~ ~ cobblestone_wall[south=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.s{i:"0"} set value "1"
+execute if block ~ ~ ~ cobblestone_wall[north=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.n{i:"0"} set value "0"
+execute if block ~ ~ ~ cobblestone_wall[east=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.e{i:"0"} set value "0"
+execute if block ~ ~ ~ cobblestone_wall[west=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.we{i:"0"} set value "0"
+execute if block ~ ~ ~ cobblestone_wall[south=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.s{i:"0"} set value "0"
+execute if block ~ ~ ~ cobblestone_wall[waterlogged=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "1"
+execute if block ~ ~ ~ cobblestone_wall[waterlogged=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "0"

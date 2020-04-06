@@ -1,0 +1,10 @@
+execute if score @s de_seti_distcurs matches ..3 anchored eyes positioned ^ ^ ^3 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 4 anchored eyes positioned ^ ^ ^4 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 5 anchored eyes positioned ^ ^ ^5 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 6 anchored eyes positioned ^ ^ ^6 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 7 anchored eyes positioned ^ ^ ^7 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 8 anchored eyes positioned ^ ^ ^8 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 9 anchored eyes positioned ^ ^ ^9 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 10 anchored eyes positioned ^ ^ ^10 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 11 anchored eyes positioned ^ ^ ^11 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~
+execute if score @s de_seti_distcurs matches 12.. anchored eyes positioned ^ ^ ^12 run teleport @e[tag=de_vbklgbnfdfv] ~ ~ ~

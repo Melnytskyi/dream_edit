@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ bee_nests run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value "bee_nests"
+execute if block ~ ~ ~ bee_hives run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value "bee_hives"

@@ -1,0 +1,17 @@
+execute if block ~ ~ ~ black_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_concrete_powder"}
+execute if block ~ ~ ~ black_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_concrete_powder"}
+execute if block ~ ~ ~ blue_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_concrete_powder"}
+execute if block ~ ~ ~ brown_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"brown_concrete_powder"}
+execute if block ~ ~ ~ cyan_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cyan_concrete_powder"}
+execute if block ~ ~ ~ gray_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gray_concrete_powder"}
+execute if block ~ ~ ~ green_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"green_concrete_powder"}
+execute if block ~ ~ ~ light_blue_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_blue_concrete_powder"}
+execute if block ~ ~ ~ light_gray_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_gray_concrete_powder"}
+execute if block ~ ~ ~ lime_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lime_concrete_powder"}
+execute if block ~ ~ ~ magenta_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"magenta_concrete_powder"}
+execute if block ~ ~ ~ orange_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_concrete_powder"}
+execute if block ~ ~ ~ pink_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"pink_concrete_powder"}
+execute if block ~ ~ ~ purple_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"purple_concrete_powder"}
+execute if block ~ ~ ~ red_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_concrete_powder"}
+execute if block ~ ~ ~ white_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_concrete_powder"}
+execute if block ~ ~ ~ yellow_concrete_powder run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"yellow_concrete_powder"}

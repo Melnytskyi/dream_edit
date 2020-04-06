@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ oak_button run function dream_edit:0/area_runer/export/5/oak/button
+execute if block ~ ~ ~ oak_door run function dream_edit:0/area_runer/export/5/oak/door
+execute if block ~ ~ ~ oak_fence_gate run function dream_edit:0/area_runer/export/5/oak/fence_gate
+execute if block ~ ~ ~ oak_fence run function dream_edit:0/area_runer/export/5/oak/fence
+execute if block ~ ~ ~ oak_leaves run function dream_edit:0/area_runer/export/5/oak/leaves
+execute if block ~ ~ ~ oak_log run function dream_edit:0/area_runer/export/5/oak/log
+execute if block ~ ~ ~ oak_planks run function dream_edit:0/area_runer/export/5/oak/planks
+execute if block ~ ~ ~ oak_pressure_plate run function dream_edit:0/area_runer/export/5/oak/pressure_plate
+execute if block ~ ~ ~ oak_sapling run function dream_edit:0/area_runer/export/5/oak/sapling
+execute if block ~ ~ ~ oak_sign run function dream_edit:0/area_runer/export/5/oak/sign
+execute if block ~ ~ ~ oak_slab run function dream_edit:0/area_runer/export/5/oak/slab
+execute if block ~ ~ ~ oak_stairs run function dream_edit:0/area_runer/export/5/oak/stairs
+execute if block ~ ~ ~ oak_trapdoor run function dream_edit:0/area_runer/export/5/oak/trapdoor
+execute if block ~ ~ ~ oak_wall_sign run function dream_edit:0/area_runer/export/5/oak/wall_sign
+execute if block ~ ~ ~ oak_wood run function dream_edit:0/area_runer/export/5/oak/wood

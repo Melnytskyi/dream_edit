@@ -1,0 +1,2 @@
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"bee_nests"}}}]} run setblock ~ ~ ~ bee_nests 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"bee_hives"}}}]} run setblock ~ ~ ~ bee_hives 

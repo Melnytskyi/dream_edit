@@ -1,0 +1,2 @@
+scoreboard players set Global plugin_can_run 0
+function dream_edit:0/lib/bling_edit_plugins_support

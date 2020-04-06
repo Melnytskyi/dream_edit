@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ black_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_stained_glass_pane"}
+execute if block ~ ~ ~ blue_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_stained_glass_pane"}
+execute if block ~ ~ ~ brown_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"brown_stained_glass_pane"}
+execute if block ~ ~ ~ cyan_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cyan_stained_glass_pane"}
+execute if block ~ ~ ~ gray_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gray_stained_glass_pane"}
+execute if block ~ ~ ~ green_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"green_stained_glass_pane"}
+execute if block ~ ~ ~ light_blue_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_blue_stained_glass_pane"}
+execute if block ~ ~ ~ light_gray_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_gray_stained_glass_pane"}
+execute if block ~ ~ ~ lime_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lime_stained_glass_pane"}
+execute if block ~ ~ ~ magenta_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"magenta_stained_glass_pane"}
+execute if block ~ ~ ~ orange_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_stained_glass_pane"}
+execute if block ~ ~ ~ pink_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"pink_stained_glass_pane"}
+execute if block ~ ~ ~ purple_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"purple_stained_glass_pane"}
+execute if block ~ ~ ~ red_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_stained_glass_pane"}
+execute if block ~ ~ ~ white_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_stained_glass_pane"}
+execute if block ~ ~ ~ yellow_stained_glass_pane run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"yellow_stained_glass_pane"}

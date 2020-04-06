@@ -1,0 +1,16 @@
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"barrier"}}}]} run setblock ~ ~ ~ barrier 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"bedrock"}}}]} run setblock ~ ~ ~ bedrock 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"carrots"}}}]} run setblock ~ ~ ~ carrots 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"conduit"}}}]} run setblock ~ ~ ~ conduit 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"diorite"}}}]} run setblock ~ ~ ~ diorite 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"dropper"}}}]} run setblock ~ ~ ~ dropper 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"end_rod"}}}]} run setblock ~ ~ ~ end_rod 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"furnace"}}}]} run setblock ~ ~ ~ furnace 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"granite"}}}]} run setblock ~ ~ ~ granite 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"jukebox"}}}]} run setblock ~ ~ ~ jukebox 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"lantern"}}}]} run setblock ~ ~ ~ lantern 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"lectern"}}}]} run setblock ~ ~ ~ lectern 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"oak_log"}}}]} run setblock ~ ~ ~ oak_log 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"pumpkin"}}}]} run setblock ~ ~ ~ pumpkin 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"red_bed"}}}]} run setblock ~ ~ ~ red_bed 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"spawner"}}}]} run setblock ~ ~ ~ spawner 

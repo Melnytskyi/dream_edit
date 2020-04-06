@@ -1,0 +1,1 @@
+execute at @e[tag=de_5riepogffrgff,type=llame_split] run function dream_edit:2/menu/technical/llame_split

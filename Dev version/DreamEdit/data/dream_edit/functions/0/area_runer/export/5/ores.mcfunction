@@ -1,0 +1,13 @@
+execute if block ~ ~ ~ coal_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"coal_block"}
+execute if block ~ ~ ~ coal_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"coal_ore"}
+execute if block ~ ~ ~ diamond_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"diamond_block"}
+execute if block ~ ~ ~ diamond_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"diamond_ore"}
+execute if block ~ ~ ~ emerald_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"emerald_block"}
+execute if block ~ ~ ~ emerald_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"emerald_ore"}
+execute if block ~ ~ ~ gold_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gold_block"}
+execute if block ~ ~ ~ gold_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gold_ore"}
+execute if block ~ ~ ~ lapis_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lapis_block"}
+execute if block ~ ~ ~ lapis_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lapis_ore"}
+execute if block ~ ~ ~ nether_quartz_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"nether_quartz_ore"}
+execute if block ~ ~ ~ redstone_ore run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"redstone_ore"}
+execute if block ~ ~ ~ redstone_block run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"redstone_block"}

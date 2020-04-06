@@ -1,0 +1,6 @@
+execute as @s[type=!arrow,type=!item] if data entity @e[tag=de_905rtgfiodcfg,limit=1] HandItems[0].tag.DreamEdit.border.perm{join:0} run function dream_edit:0/border/live_reader/permishion/join
+execute as @s[type=!arrow,type=!item] if data entity @e[tag=de_905rtgfiodcfg,limit=1] HandItems[0].tag.DreamEdit.border.perm{pickup_items:0} run function dream_edit:0/border/live_reader/permishion/pick_items
+execute as @s[type=item] if data entity @e[tag=de_905rtgfiodcfg,limit=1] HandItems[0].tag.DreamEdit.border.perm{drop_items:0} run function dream_edit:0/border/live_reader/permishion/drop_items
+execute as @s[type=!arrow,type=!item] if data entity @e[tag=de_905rtgfiodcfg,limit=1] HandItems[0].tag.DreamEdit.border.perm{hit_entity:0} run function dream_edit:0/border/live_reader/permishion/hit_entity
+execute as @s[type=!arrow,type=!item] if data entity @e[tag=de_905rtgfiodcfg,limit=1] HandItems[0].tag.DreamEdit.border.perm{hit_player:0} run function dream_edit:0/border/live_reader/permishion/hit_player
+execute as @s[type=arrow] if data entity @e[tag=de_905rtgfiodcfg,limit=1] HandItems[0].tag.DreamEdit.border.perm{bow:0} run function dream_edit:0/border/live_reader/permishion/bow

@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ birch_trapdoor[facing=north] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {a:"2",b:"birch_trapdoor",f:{i:"0"},p:{i:"0"},h:{i:"0"},o:{i:"0"},w:{i:"0"}}
+execute if block ~ ~ ~ birch_trapdoor[facing=east] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {a:"3",b:"birch_trapdoor",f:{i:"0"},p:{i:"0"},h:{i:"0"},o:{i:"0"},w:{i:"0"}}
+execute if block ~ ~ ~ birch_trapdoor[facing=west] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {a:"4",b:"birch_trapdoor",f:{i:"0"},p:{i:"0"},h:{i:"0"},o:{i:"0"},w:{i:"0"}}
+execute if block ~ ~ ~ birch_trapdoor[facing=south] run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {a:"5",b:"birch_trapdoor",f:{i:"0"},p:{i:"0"},h:{i:"0"},o:{i:"0"},w:{i:"0"}}
+execute if block ~ ~ ~ birch_trapdoor[powered=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.p{i:"0"} set value "1"
+execute if block ~ ~ ~ birch_trapdoor[powered=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.p{i:"0"} set value "0"
+execute if block ~ ~ ~ birch_trapdoor[half=top] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.h{i:"0"} set value "1"
+execute if block ~ ~ ~ birch_trapdoor[half=bottom] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.h{i:"0"} set value "0"
+execute if block ~ ~ ~ birch_trapdoor[open=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.o{i:"0"} set value "1"
+execute if block ~ ~ ~ birch_trapdoor[open=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.o{i:"0"} set value "0"
+execute if block ~ ~ ~ birch_trapdoor[waterlogged=true] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "1"
+execute if block ~ ~ ~ birch_trapdoor[waterlogged=false] run data modify block 29999999 0 0 Items[0].tag.DreamEdit_bdata.w{i:"0"} set value "0"

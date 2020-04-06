@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ black_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_wool"}
+execute if block ~ ~ ~ blue_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_wool"}
+execute if block ~ ~ ~ brown_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"brown_wool"}
+execute if block ~ ~ ~ cyan_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cyan_wool"}
+execute if block ~ ~ ~ gray_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gray_wool"}
+execute if block ~ ~ ~ green_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"green_wool"}
+execute if block ~ ~ ~ light_blue_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_blue_wool"}
+execute if block ~ ~ ~ light_gray_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_gray_wool"}
+execute if block ~ ~ ~ lime_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lime_wool"}
+execute if block ~ ~ ~ magenta_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"magenta_wool"}
+execute if block ~ ~ ~ orange_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_wool"}
+execute if block ~ ~ ~ pink_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"pink_wool"}
+execute if block ~ ~ ~ purple_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"purple_wool"}
+execute if block ~ ~ ~ red_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_wool"}
+execute if block ~ ~ ~ white_wool run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_wool"}

@@ -1,0 +1,17 @@
+execute if block ~ ~ ~ terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"terracotta"}
+execute if block ~ ~ ~ white_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"white_terracotta"}
+execute if block ~ ~ ~ yellow_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"yellow_terracotta"}
+execute if block ~ ~ ~ black_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"black_terracotta"}
+execute if block ~ ~ ~ blue_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"blue_terracotta"}
+execute if block ~ ~ ~ brown_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"brown_terracotta"}
+execute if block ~ ~ ~ cyan_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"cyan_terracotta"}
+execute if block ~ ~ ~ gray_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"gray_terracotta"}
+execute if block ~ ~ ~ green_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"green_terracotta"}
+execute if block ~ ~ ~ light_blue_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_blue_terracotta"}
+execute if block ~ ~ ~ light_gray_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"light_gray_terracotta"}
+execute if block ~ ~ ~ lime_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"lime_terracotta"}
+execute if block ~ ~ ~ magenta_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"magenta_terracotta"}
+execute if block ~ ~ ~ orange_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"orange_terracotta"}
+execute if block ~ ~ ~ pink_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"pink_terracotta"}
+execute if block ~ ~ ~ purple_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"purple_terracotta"}
+execute if block ~ ~ ~ red_terracotta run data modify block 29999999 5 0 Items[0].tag.DreamEdit_bdata set value {b:"red_terracotta"}

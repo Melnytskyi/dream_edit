@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dream_edit:cursor_click"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dream_edit:point"
+    }
+}

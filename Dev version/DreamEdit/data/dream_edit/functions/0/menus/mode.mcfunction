@@ -1,0 +1,10 @@
+tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"{{","color":"dark_green","bold":true},{"text":"Dream World Editor","color":"dark_aqua","bold":true},{"text":"}}\n","color":"dark_green","bold":true},{"text":"\n"},{"translate":"dream_edit.menu.tools","color":"dark_green","clickEvent":{"action":"run_command","value":"/function dream_edit:0/menu"}},{"text":" "},{"translate":"dream_edit.menu.mode","color":"dark_aqua","underlined":true},{"text":" "},{"translate":"dream_edit.menu.another","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function dream_edit:0/menus/another"}},{"text":"\n\n\n"},{"text":"\n\n"},{"translate":"dream_edit.menu.cancel","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}},{"text":" "},{"translate":"dream_edit.text.select","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}}]
+
+#tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"{{","color":"dark_green","bold":true},{"text":"Dream World Editor","color":"dark_aqua","bold":true},{"text":"}}\n","color":"dark_green","bold":true},
+#{"text":"\n"},{"translate":"dream_edit.menu.tools","color":"dark_green","clickEvent":{"action":"run_command","value":"/function dream_edit:0/menu"}},
+#{"text":" "},{"translate":"dream_edit.menu.mode","color":"dark_aqua","underlined":true},
+#{"text":" "},{"translate":"dream_edit.menu.another","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function dream_edit:0/menus/another"}},
+#{"text":"\n\n\n"},{"text":"\n\n"},{"translate":"dream_edit.menu.cancel","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}},
+#{"text":" "},{"translate":"dream_edit.text.select","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}}]
+execute if score gamerule de_cache matches 0 store result score gamerule de_cache run gamerule sendCommandFeedback
+gamerule sendCommandFeedback false
