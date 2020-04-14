@@ -38,6 +38,7 @@
  "dream_edit.menu.snow.op" : "Выберите операцию над снегом:",
  "dream_edit.menu.snow.smoothing" : "Сглаживание",
  "dream_edit.menu.snow.noisy" : "Зашумление",
+ "dream_edit.menu.snow.flattening" : "Сплющивание", 
  "dream_edit.menu.snow.perlin" : "Перлин", 
  "dream_edit.menu.brush.menu" : "Меню кисти",
  "dream_edit.menu.brush.menu.height" : "Высота",

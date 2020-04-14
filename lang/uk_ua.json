@@ -38,6 +38,7 @@
  "dream_edit.menu.snow.op" : "Оберить операцiю над снiгом:",
  "dream_edit.menu.snow.smoothing" : "Сгладжування",
  "dream_edit.menu.snow.noisy" : "Зашумлення",
+ "dream_edit.menu.snow.flattening" : "Сплиснення", 
  "dream_edit.menu.snow.perlin" : "Перлiн", 
  "dream_edit.menu.brush.menu" : "Меню пензлика",
  "dream_edit.menu.brush.menu.height" : "Висота",

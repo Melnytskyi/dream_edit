@@ -39,6 +39,7 @@
  "dream_edit.menu.snow.op" : "Select snow operation:",
  "dream_edit.menu.snow.smoothing" : "Smoothing",
  "dream_edit.menu.snow.noisy" : "Noisy",
+ "dream_edit.menu.snow.flattening" : "Flattening", 
  "dream_edit.menu.snow.perlin" : "Perlin", 
  "dream_edit.menu.brush.menu" : "Bürste menü",
  "dream_edit.menu.brush.menu.height" : "Höhe",
