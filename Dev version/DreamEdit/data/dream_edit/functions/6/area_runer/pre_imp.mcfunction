@@ -7,7 +7,7 @@ scoreboard players set 2 de_cache 0
 scoreboard players set 20 de_cache 15
 bossbar set de_progress name {"translate":"dream_edit.info.scaning"}
 bossbar set de_progress players @s
-function dream_edit:6/cursor/f
+function dream_edit:0/cursor/f
 summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_vrjrjrjrjrjp"]}
 function dream_edit:main_lib/on_op
 execute if score chunk de_cache matches 0 run function dream_edit:6/menu_null

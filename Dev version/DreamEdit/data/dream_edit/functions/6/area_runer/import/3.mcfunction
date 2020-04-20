@@ -1,8 +1,6 @@
-scoreboard players operation @s de_sel_y = 1 de_cache
-scoreboard players operation @s de_op_2 = 10 de_cache
-scoreboard players set -1 de_cache 1
-execute if score -1 de_cache matches ..-1 if score @s de_sel_y >= @s de_op_2 run function dream_edit:6/area_runer/import/4
-execute if score -1 de_cache matches 1.. if score @s de_sel_y <= @s de_op_2 run function dream_edit:6/area_runer/import/4
-scoreboard players add @s de_sel_z 1
-execute if score @s de_sel_z <= @s de_op_1 run function dream_edit:6/area_runer/import/3
+scoreboard players operation de_sel_y de_cache = 1 de_cache
+scoreboard players operation de_op_2 de_cache = 10 de_cache
+execute if score de_sel_y de_cache <= de_op_2 de_cache run function dream_edit:6/area_runer/import/4
+scoreboard players add de_sel_z de_cache 1
+execute if score de_sel_z de_cache <= de_op_1 de_cache run function dream_edit:6/area_runer/import/3
 #say 2

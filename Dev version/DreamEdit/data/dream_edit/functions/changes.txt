@@ -1,2 +1,9 @@
 fixed false rotation on cloning
+fixed not working import
+optimize import
+now you can use clone/import came time with another tools
+now you can fixate and move clone/import box
+now you can move selected box(Dream World Editor)
+
+added snow operations(smooth/noise/flattening)
 added manuals on main menu

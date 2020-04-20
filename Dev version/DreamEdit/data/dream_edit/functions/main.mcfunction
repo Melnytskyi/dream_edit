@@ -3,10 +3,6 @@ effect give @e[tag=de_point] regeneration 1000000 5 true
 effect give @e[tag=de_select] invisibility 1000000 5 true
 effect give @e[tag=de_cursor] regeneration 1000000 5 true
 effect give @e[tag=de_point] regeneration 1000000 5 true
-
-
-
-
 execute if score gamerule de_cache matches 1 run gamerule sendCommandFeedback true
 execute if score doTileDrops de_cache matches 1 run gamerule doTileDrops true
 scoreboard players set gamerule de_cache 0

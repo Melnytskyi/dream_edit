@@ -1,8 +1,9 @@
-execute if score check_border de_cache matches 1 run function dream_edit:6/border/check_allow_position
+execute if score check_border de_cache matches 1 run function dream_edit:0/border/check_allow_position
 clone ~ ~ ~ ~ ~ ~ 29999999 3 0 
+#scoreboard players set allow de_cache 1
 execute if score allow de_cache matches 1 run scoreboard players add affected de_cache 1
-data modify block 29999999 255 0 Items[0].tag.DreamEdit_rdata set from block 29999999 255 0 Items[0].tag.DreamEdit_adata[0]
-data remove block 29999999 255 0 Items[0].tag.DreamEdit_adata[0]
+data modify block 29999999 255 0 Items[0].tag.DreamEdit_rdata set from block 29999999 254 0 Items[0].tag.DreamEdit_adata[0]
+data remove block 29999999 254 0 Items[0].tag.DreamEdit_adata[0]
 execute if score allow de_cache matches 1 store result score imfly de_cache run data get block 29999999 255 0 Items[0].tag.DreamEdit_rdata.b
 execute if score allow de_cache matches 1 if score imfly de_cache matches 3 run function dream_edit:6/area_runer/import/5/3
 execute if score allow de_cache matches 1 if score imfly de_cache matches 4 run function dream_edit:6/area_runer/import/5/4

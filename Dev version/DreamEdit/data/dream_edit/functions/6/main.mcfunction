@@ -1,5 +1,6 @@
 scoreboard players set @s de_tool 6
-execute as @s[tag=!de_cursor_c] run function dream_edit:6/cursor/prepare
-execute as @s[tag=de_cursor_c] run function dream_edit:6/cursor/distance
-function dream_edit:6/cursor/imp
+execute unless entity @e[tag=de_34efgtgref,limit=1] run function dream_edit:6/cursor/prepare
+execute as @s[scores={de_istfi=0}] if entity @e[tag=de_34efgtgref,limit=1] run function dream_edit:6/cursor/distance
+execute as @s[scores={de_istfi=0}] run function dream_edit:6/cursor/main
 execute unless score @s de_importing_id = @s de_oimporting_id run function dream_edit:6/cursor/impf
+title @s actionbar ["",{"translate":"dream_edit.info.pos"},{"text":" x y z: "},{"score":{"name":"de_ix","objective":"de_cache"},"color":"dark_aqua"},{"text":" "},{"score":{"name":"de_iy","objective":"de_cache"},"color":"dark_aqua"},{"text":" "},{"score":{"name":"de_iz","objective":"de_cache"},"color":"dark_aqua"},{"text":" -x -y -z: ","color":"none"},{"score":{"name":"de_ix1","objective":"de_cache"},"color":"dark_aqua"},{"text":" "},{"score":{"name":"de_iy1","objective":"de_cache"},"color":"dark_aqua"},{"text":" "},{"score":{"name":"de_iz1","objective":"de_cache"},"color":"dark_aqua"}]

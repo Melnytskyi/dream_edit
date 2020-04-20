@@ -16,4 +16,4 @@ execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"magenta_s
 execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"orange_stained_glass_pane"}}}]} run setblock ~ ~ ~ orange_stained_glass_pane 
 execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"purple_stained_glass_pane"}}}]} run setblock ~ ~ ~ purple_stained_glass_pane 
 execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"wither_skeleton_wall_skull"}}}]} run setblock ~ ~ ~ wither_skeleton_wall_skull 
-execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"yellow_stained_glass_pane"}}}]} run setblock ~ ~ ~ yellow_stained_glass_pane 
+execute if data block 29999999 255 0 {Items:[{tag:{DreamEdit_rdata:{b:"yellow_stained_glass_pane"}}}]} run setblock ~ ~ ~ yellow_stained_glass_panel

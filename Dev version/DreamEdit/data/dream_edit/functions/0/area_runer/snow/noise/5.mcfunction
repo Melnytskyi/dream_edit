@@ -1,0 +1,2 @@
+execute if score check_border de_cache matches 1 run function dream_edit:0/border/check_allow_position
+execute if score allow de_cache matches 1 if block ~ ~ ~ snow as @e[tag=de_r8it43r3d2qwdqw,limit=1,sort=random] run function dream_edit:0/area_runer/snow/noise/6

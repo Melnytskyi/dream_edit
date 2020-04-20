@@ -1,10 +1,10 @@
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n"]
-
 tellraw @s[tag=de_reg_efde_set] ["",{"translate":"dream_edit.menu.region.effects.add","color":"gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.effects[] append value {Effect:\"name effect id\",Ampfimber:#number#}"}}]
 tellraw @s[tag=de_reg_efde_set] ["",{"translate":"dream_edit.menu.region.effects.remove","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data remove entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.effects[{Effect:\"name effect id\",Ampfimber:#number#}]"}}]
 
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.values","color":"gray"}]
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.join","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.join set value "}}]
+tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.left","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.left set value "}}]
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.edit","color":"gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.edit set value "}}]
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.pickup_items","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.pickup_items set value "}}]
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.drop_items","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.drop_items set value "}}]
@@ -12,6 +12,9 @@ tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.hi
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.hit_player","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.hit_player set value "}}]
 tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.region.perm.bow","color":"gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.bow set value "}}]
 execute if score VAC de_cache matches 1 run tellraw @s[tag=de_reg_perm_set] ["",{"text":"Exlesive for VAC users: "},{"translate":"dream_edit.menu.perm.fly","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.fly set value "}}]
+execute if score VAC de_cache matches 1 run tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.perm.badfly","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.badfly set value "}}]
+execute if score VAC de_cache matches 1 run tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.perm.nocheat","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.nocheat set value "}}]
+execute if score VAC de_cache matches 1 run tellraw @s[tag=de_reg_perm_set] ["",{"translate":"dream_edit.menu.perm.warn","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.perm.nocheat set value "}}]
 
 
 tellraw @s[tag=de_reg_game_set] ["",{"translate":"dream_edit.menu.region.gamemode","color":"gray","clickEvent":{"action":"suggest_command","value":"/data modify entity @e[limit=1,scores={de_region_id=#number#}] HandItems[0].tag.DreamEdit.border.gamemode set value "}}]
@@ -37,9 +40,7 @@ tellraw @s ["",{"text":"{{","color":"dark_green","bold":true},{"text":"Dream Edi
 #{"translate":"dream_edit.menu.remove","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/kill @e[limit=1,scores={de_region_id=#number#}]"}},
 #{"text":"\n\n"},
 #{"translate":"dream_edit.menu.cancel","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}},
-#{"text":" "},{"translate":"dream_edit.text.select","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}},
-#{"text":"\n"},{"translate":"dream_edit.menu.clear","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:0/operations/clear"}},
-#{"text":" "},{"translate":"dream_edit.text.area","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:0/operations/clear"}}]
+#{"text":" "},{"translate":"dream_edit.text.select","color":"red","clickEvent":{"action":"run_command","value":"/function dream_edit:point/r"}}]
 tag @s remove de_reg_efde_set
 tag @s remove de_reg_perm_set
 tag @s remove de_reg_game_set

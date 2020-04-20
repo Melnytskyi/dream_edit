@@ -39,4 +39,3 @@ execute if score cursor_type de_settings matches 0 run team join de_corner2 @e[t
 execute if score cursor_type de_settings matches 0 if entity @e[tag=de_point_0,tag=de_s3434dddz] if entity @e[tag=de_point_1,tag=de_s3434dddz] run function dream_edit:0/cursor/points
 tag @a[tag=de_nx43zl4e,limit=1] remove de_cursor_1
 tag @a[tag=de_nx43zl4e] remove de_poi_1
-
