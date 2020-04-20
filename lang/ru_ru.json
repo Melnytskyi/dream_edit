@@ -91,6 +91,7 @@
  "dream_edit.menu.region.effects.add":"Добавить",
  "dream_edit.menu.region.effects.remove":"Удалить",
  "dream_edit.menu.region.perm.join":"Вход на регион",
+ "dream_edit.menu.region.perm.left":"Выход с региона",
  "dream_edit.menu.region.perm.edit":"Редактирование на регионе",
  "dream_edit.menu.region.perm.pickup_items":"Подбор вещей",
  "dream_edit.menu.region.perm.drop_items":"Сбрасывание вещей",

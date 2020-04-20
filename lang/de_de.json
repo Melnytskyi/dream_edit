@@ -94,6 +94,7 @@
  "dream_edit.menu.region.effects.add" : "Hinzufügen",
  "dream_edit.menu.region.effects.remove" : "Entfernen",
  "dream_edit.menu.region.perm.join" : "Region beitreten",
+ "dream_edit.menu.region.perm.left":"Verlassen Sie die Region",
  "dream_edit.menu.region.perm.edit" : "Region bearbeiten",
  "dream_edit.menu.region.perm.pickup_items" : "Gegenstände aufheben",
  "dream_edit.menu.region.perm.drop_items" : "Gegenstände droppen",
