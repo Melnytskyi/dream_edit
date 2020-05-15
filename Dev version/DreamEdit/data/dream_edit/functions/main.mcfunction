@@ -10,7 +10,15 @@ scoreboard players set doTileDrops de_cache 0
 bossbar set de_progress value 100
 execute as @a[tag=!de_set_brush,scores={de_drop=1..}] run scoreboard players reset @s de_drop
 scoreboard players set 65ygtr de_cache -1
-execute store result score chunk de_cache run forceload query 29999999 0
+execute store result score chunk_0 de_cache in minecraft:overworld run forceload query 29999999 0
+execute store result score chunk_1 de_cache in minecraft:the_end run forceload query 29999999 0
+execute store result score chunk_2 de_cache in minecraft:the_nether run forceload query 29999999 0
+scoreboard players operation chunk de_cache = chunk_0 de_cache
+scoreboard players operation chunk de_cache += chunk_1 de_cache
+scoreboard players operation chunk de_cache += chunk_2 de_cache
+execute unless score chunk de_cache = chunky de_cache unless score chunk de_cache matches 3 as @a[gamemode=creative,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Dream Edit"}'}}}}] run function dream_edit:menu_null
+scoreboard players operation chunky de_cache = chunk de_cache
+execute unless score chunk de_cache matches 3 run scoreboard players set chunk de_cache 0
 scoreboard players add @e[tag=de_region_prime] de_v_r_t 1
 execute as @e[tag=de_region_prime,scores={de_v_r_t=100..}] run function dream_edit:0/cursor/r
 execute as @a[gamemode=creative,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Dream Edit"}'}}}}] run replaceitem entity @s weapon.mainhand knowledge_book{display:{Name:'{"text":"Dream Edit","italic":"false"}'},Recipes:["dream_edit:cursor_click"]} 1
@@ -18,6 +26,8 @@ scoreboard players add hash0 de_core 0
 scoreboard players add hash1 de_core 0
 scoreboard players add hash2 de_core 0
 scoreboard players add hash3 de_core 0
+execute as @e[type=!player,tag=de_nbt_pre_sel,tag=!de_nbt_pre_sel0] run function dream_edit:2/entity/no_select
+tag @e[type=!player] remove de_nbt_pre_sel0
 execute if score hash0 de_core matches 0 run function dream_edit:main_lib/hash0
 execute if score hash1 de_core matches 0 run function dream_edit:main_lib/hash1
 execute if score hash2 de_core matches 0 run function dream_edit:main_lib/hash2

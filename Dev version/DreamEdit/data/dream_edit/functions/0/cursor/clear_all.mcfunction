@@ -9,5 +9,4 @@ execute as @e[tag=de_vbklgbnfdfv] run function dream_edit:0/cursor/r
 execute as @e[tag=de_zo3212qrr] run function dream_edit:0/cursor/r
 execute as @e[tag=de_34efgtgref] run function dream_edit:0/cursor/r
 execute as @e[tag=de_zo3212qrr] run function dream_edit:0/cursor/r
-execute as @e[type=!player] if score @s de_nbt_edit_id = @p[tag=de_nx43zl4e] de_pid run scoreboard players reset @s de_nbt_edit_id
 tag @s remove de_cursor_c

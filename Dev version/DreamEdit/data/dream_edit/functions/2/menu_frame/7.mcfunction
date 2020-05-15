@@ -1,0 +1,14 @@
+tellraw @s ["",{"translate":"dream_edit.menu.page","color":"blue"},{"text":": "},{"text":"1","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/1"}},{"text":" "},{"text":"2","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/2"}},{"text":" "},{"text":"3","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/3"}},{"text":" "},{"text":"4","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/4"}},{"text":" "},{"text":"5","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/5"}},{"text":" "},{"text":"6","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/6"}},{"text":" "},{"text":"7","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/7"}},{"text":" "},{"text":"8\n","color":"gray","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/8"}},{"text":"Glowing","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.glowing","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeglow "}},{"text":" "},{"score":{"name":"@s","objective":"de_nbt_eeglow"}},{"text":"\n\n\n\n"}]
+
+#tellraw @s ["",
+#{"translate":"dream_edit.menu.page","color":"blue"},{"text":": "},
+#{"text":"1","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/1"}},{"text":" "},
+#{"text":"2","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/2"}},{"text":" "},
+#{"text":"3","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/3"}},{"text":" "},
+#{"text":"4","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/4"}},{"text":" "},
+#{"text":"5","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/5"}},{"text":" "},
+#{"text":"6","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/6"}},{"text":" "},
+#{"text":"7","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/7"}},{"text":" "},
+#{"text":"8\n","color":"gray","clickEvent":{"action":"run_command","value":"/function dream_edit:2/menu/frame/page/8"}},
+#{"text":"Glowing","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.glowing","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeglow "}},{"text":" "},{"score":{"name":"@s","objective":"de_nbt_eeglow"}},{"text":"\n\n\n\n"}
+#]

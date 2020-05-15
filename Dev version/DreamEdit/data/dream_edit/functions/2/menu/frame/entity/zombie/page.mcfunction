@@ -1,0 +1,13 @@
+tellraw @s ["",{"translate":"dream_edit.menu.page","color":"blue"},{"text":": "},{"text":"1\n","color":"gray"}}{"text":"ShowArms\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Show arms?","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeshowarm "}},{"text":"NoBasePlate\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Dibable base plate?","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eenbp "}},{"text":"Small\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Small?","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eesmall "}},{"text":"Invisible\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Invisible?","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeinvis "}},{"text":"Maker","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"'disable' hitbox","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eemaker "}}]
+
+
+#tellraw @s ["",
+#{"translate":"dream_edit.menu.page","color":"blue"},{"text":": "},
+#{"text":"1\n","color":"gray"}},
+#{"text":"IsBaby\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.isbaby","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeisbaby "}},
+#{"text":"IsVillager\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.isvillager","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeisvilla "}},
+#{"text":"CanBreakDoors\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.canbreakdoors","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eecbd "}},
+#{"text":"DrownedConversionTime\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.drownedconversiontime","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eedct "}},
+#{"text":"InWaterTime","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.inwatertime","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeiwt "}}
+#]
+scoreboard players set 478or3e2qweuisdq de_cache 1

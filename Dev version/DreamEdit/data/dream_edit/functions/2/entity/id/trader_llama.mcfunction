@@ -1,0 +1,1 @@
+execute as @s[type=trader_llama] run scoreboard players set 34ru23r232423 de_cache 73 

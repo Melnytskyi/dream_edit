@@ -1,0 +1,12 @@
+tellraw @s ["",{"translate":"dream_edit.menu.page","color":"blue"},{"text":": "},{"text":"1\n","color":"gray"},{"text":"InLove\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.inlove","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeinlove "}},{"text":"Age\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.age","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeage "}},{"text":"ForcedAge\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.forcedage","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeforcage "}},{"text":"LoveCause\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.lovecause","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/function dream_edit:2/select/love_cause"}}]
+
+
+#tellraw @s ["",
+#{"translate":"dream_edit.menu.page","color":"blue"},{"text":": "},
+#{"text":"1\n","color":"gray"},
+#{"text":"InLove\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.inlove","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeinlove "}},
+#{"text":"Age\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.age","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeage "}},
+#{"text":"ForcedAge\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.forcedage","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @s de_nbt_eeforcage "}},
+#{"text":"LoveCause\n","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"translate":"dream_edit.nbt.hints.lovecause","color":"gold"}]}},"clickEvent":{"action":"suggest_command","value":"/function dream_edit:2/select/love_cause"}}
+#]
+scoreboard players set 478or3e2qweuisdq de_cache 1

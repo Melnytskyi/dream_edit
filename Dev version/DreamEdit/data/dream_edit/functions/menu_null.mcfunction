@@ -1,1 +1,4 @@
-tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"translate": "dream_edit.errors.main_chunk","clickEvent":{"action":"run_command","value":"/forceload add 29999999 0"}}]
+tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"translate":"dream_edit.errors.main_chunk"}]
+execute if score chunk_0 de_cache matches 0 run tellraw @s ["\n",{"text":"Overworld","clickEvent":{"action":"run_command","value":"/execute in minecraft:overworld run forceload add 29999999 0"}}]
+execute if score chunk_2 de_cache matches 0 run tellraw @s ["\n",{"text":"Nether","clickEvent":{"action":"run_command","value":"/execute in minecraft:the_nether run forceload add 29999999 0"}}]
+execute if score chunk_1 de_cache matches 0 run tellraw @s ["\n",{"text":"End","clickEvent":{"action":"run_command","value":"/execute in minecraft:the_end run forceload add 29999999 0"}}]

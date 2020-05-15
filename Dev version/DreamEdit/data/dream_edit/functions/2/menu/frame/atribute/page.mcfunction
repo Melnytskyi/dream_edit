@@ -1,0 +1,14 @@
+execute if score @s de_nbt_page matches ..0 run function dream_edit:2/menu/frame/atribute/0
+execute if score @s de_nbt_page matches 1 run function dream_edit:2/menu/frame/atribute/1
+execute if score @s de_nbt_page matches 2 run function dream_edit:2/menu/frame/atribute/2
+execute if score @s de_nbt_page matches 3 run function dream_edit:2/menu/frame/atribute/3
+execute if score @s de_nbt_page matches 4 run function dream_edit:2/menu/frame/atribute/4
+execute if score @s de_nbt_page matches 5 run function dream_edit:2/menu/frame/atribute/5
+execute if score @s de_nbt_page matches 6 run function dream_edit:2/menu/frame/atribute/6
+execute if score @s de_nbt_page matches 7 run function dream_edit:2/menu/frame/atribute/7
+execute if score @s de_nbt_page matches 8 run function dream_edit:2/menu/frame/atribute/8
+execute if score @s de_nbt_page matches 9 run function dream_edit:2/menu/frame/atribute/9
+execute if score @s de_nbt_page matches 10 run function dream_edit:2/menu/frame/atribute/10
+execute if score @s de_nbt_page matches 11 run function dream_edit:2/menu/frame/atribute/11
+execute if score @s de_nbt_page matches 12 run function dream_edit:2/menu/frame/atribute/12
+execute if score @s de_nbt_page matches 13.. run function dream_edit:2/menu/frame/atribute/13
