@@ -16,12 +16,12 @@ scoreboard players operation 1 de_cache = @s de_cursor_may
 scoreboard players operation 10 de_cache = @s de_cursor_miy
 scoreboard players operation 2 de_cache = @s de_cursor_maz
 scoreboard players operation 20 de_cache = @s de_cursor_miz
-scoreboard players operation 30 de_cache = @s de_cl0
-scoreboard players operation 300 de_cache = @s de_cl3
-scoreboard players operation 31 de_cache = @s de_cl1
-scoreboard players operation 310 de_cache = @s de_cl4
-scoreboard players operation 32 de_cache = @s de_cl2
-scoreboard players operation 320 de_cache = @s de_cl5
+scoreboard players operation 30 de_cache = de_cl0 de_cache
+scoreboard players operation 300 de_cache = de_cl3 de_cache
+scoreboard players operation 31 de_cache = de_cl1 de_cache
+scoreboard players operation 310 de_cache = de_cl4 de_cache
+scoreboard players operation 32 de_cache = de_cl2 de_cache
+scoreboard players operation 320 de_cache = de_cl5 de_cache
 bossbar set de_progress players @s
 function dream_edit:0/cursor/f
 scoreboard players operation csy de_cache = 310 de_cache
@@ -39,6 +39,6 @@ scoreboard players operation fliy de_cache = @s de_clstf_y
 scoreboard players operation fliz de_cache = @s de_clstf_z
 summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_vrjrjrjrjrjp"]}
 function dream_edit:main_lib/on_op
-execute if score chunk de_cache matches 0 run function dream_edit:0/menu_null
+execute if score chunk de_cache matches 0 run function dream_edit:menu_null
 execute as @e[tag=de_vrjrjrjrjrjp] unless score chunk de_cache matches 0 run function dream_edit:0_1/area_runer/clone/1
 function #vac:0_tick_use

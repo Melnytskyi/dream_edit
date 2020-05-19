@@ -1,6 +1,0 @@
-execute unless block ~ ~ ~ air unless block ~ ~-1 ~ air if block ~1 ~-1 ~ air if block ~ ~-1 ~-1 air if block ~ ~-1 ~1 air run setblock ~ ~-1 ~ air
-execute unless block ~ ~ ~ air unless block ~ ~-1 ~ air if block ~-1 ~-1 ~ air if block ~ ~-1 ~-1 air if block ~ ~-1 ~1 air run setblock ~ ~-1 ~ air
-execute unless block ~ ~ ~ air unless block ~ ~-1 ~ air if block ~1 ~-1 ~ air if block ~ ~-1 ~1 air if block ~-1 ~-1 ~ air run setblock ~ ~-1 ~ air
-execute unless block ~ ~ ~ air unless block ~ ~-1 ~ air if block ~1 ~-1 ~ air if block ~ ~-1 ~-1 air if block ~-1 ~-1 ~ air run setblock ~ ~-1 ~ air
-execute unless block ~ ~ ~ air unless block ~ ~-1 ~ air if block ~-1 ~-1 ~ air if block ~1 ~-1 ~ air run setblock ~ ~-1 ~ air
-execute unless block ~ ~ ~ air unless block ~ ~-1 ~ air if block ~ ~-1 ~-1 air if block ~ ~-1 ~1 air run setblock ~ ~-1 ~ air

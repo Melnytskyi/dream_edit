@@ -25,7 +25,7 @@ data modify block 29999999 0 0 Items[0].tag.DreamEdit_datar.crypted set value 0
 scoreboard players add #cedat de_cache 1
 summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_vrjrjrjrjrjp"]}
 function dream_edit:main_lib/on_op
-execute if score chunk de_cache matches 0 run function dream_edit:0/menu_null
+execute if score chunk de_cache matches 0 run function dream_edit:menu_null
 execute as @e[tag=de_vrjrjrjrjrjp] unless score chunk de_cache matches 0 run function dream_edit:0/area_runer/export/1
 execute store result block 29999999 0 0 Items[0].tag.DreamEdit_datai int 1.0 run scoreboard players get #cedat de_cache
 

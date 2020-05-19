@@ -26,6 +26,8 @@
  "dream_edit.menu.soli" : "Schicht", 
  "dream_edit.info.region" : "Region",
  "dream_edit.menu.snow" : "Snow",
+ "dream_edit.menu.smooth" : "Smooth",
+ "dream_edit.menu.noisy" : "Noisy", 
  "dream_edit.menu.import_region" : "Einfuhr",
  "dream_edit.menu.plugins" : "Plugins",
  "dream_edit.menu.built-in_plugins" : "Eingebaute Plugins",

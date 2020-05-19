@@ -12,7 +12,7 @@ function dream_edit:0/cursor/f
 summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_vrjrjrjrjrjp"]}
 function dream_edit:main_lib/on_op
 execute unless entity @e[tag=de_pool] run tellraw @s ["",{"text":"Error : not selected Random Pool","color":"red","bold":true}]
-execute if score chunk de_cache matches 0 run function dream_edit:0/menu_null
+execute if score chunk de_cache matches 0 run function dream_edit:menu_null
 execute as @e[tag=de_vrjrjrjrjrjp] unless score chunk de_cache matches 0 if entity @e[tag=de_pool] run function dream_edit:0/area_runer/fill_random/1
 kill @e[tag=de_pool]
 function dream_edit:main_lib/under_op

@@ -8,4 +8,4 @@ execute if score point2 de_cache <= 2 de_cache if score point2 de_cache >= 20 de
 execute if score poi de_cache matches 0 run kill @s
 execute if block ~ ~ ~ air if score poi de_cache matches 3 run scoreboard players remove point1 de_cache 1
 execute if block ~ ~ ~ air if score poi de_cache matches 3 store result entity @s Pos[1] double 1.0 run scoreboard players get point1 de_cache
-execute if block ~ ~ ~ air if score poi de_cache matches 3 at @s run function dream_edit:0/area_runer/smooth/points/0
+execute if block ~ ~ ~ air if score poi de_cache matches 3 at @s run function dream_edit:0/area_runer/smooth/noise/0

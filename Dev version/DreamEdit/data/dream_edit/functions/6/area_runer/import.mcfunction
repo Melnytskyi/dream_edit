@@ -1,9 +1,4 @@
 function dream_edit:0/border/check
-scoreboard players operation rotat de_cache = @s de_clsm_r 
-scoreboard players operation rotat de_cache += @s de_clstr
-scoreboard players operation rotat de_cache += @s de_clstsr
-execute if score rotat de_cache matches 361.. run scoreboard players remove rotat de_cache 360
-execute if score rotat de_cache matches ..-1 run scoreboard players add rotat de_cache 360
 bossbar set de_progress name {"translate":"dream_edit.menu.import_region"}
 bossbar set de_progress value 100
 kill @e[tag=de_pre_imp,type=area_effect_cloud]

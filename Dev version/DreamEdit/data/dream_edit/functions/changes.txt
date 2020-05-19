@@ -1,5 +1,4 @@
-fixed wrong dimension may be use on export 
-update menu
-
-complete NBT editor(swithes mode(with custom nbt!)) (visual still on dev) 
-now dream edit reguired three forceloaded chunks (per dimension)
+fixed critical bugs
+smooth button not work
+clone not work
+clone menu now work correct

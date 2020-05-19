@@ -23,6 +23,6 @@ summon area_effect_cloud ~ ~ ~-1 {Duration:-20,Tags:["de_trghr5hrthb","07"]}
 ##summon area_effect_cloud ~1 ~ ~-2 {Duration:-20,Tags:["de_trghr5hrthb","22"]}
 ##summon area_effect_cloud ~-1 ~ ~-2 {Duration:-20,Tags:["de_trghr5hrthb","23"]}
 ##summon area_effect_cloud ~ ~ ~-2 {Duration:-20,Tags:["de_trghr5hrthb","24"]}
-execute as @e[tag=de_trghr5hrthb] at @s run function dream_edit:0/area_runer/smooth/points/0
-execute as @e[tag=de_trghr5hrthb,tag=00] at @s run function dream_edit:0/area_runer/smooth/5
+execute as @e[tag=de_trghr5hrthb] at @s run function dream_edit:0/area_runer/noise/points/0
+execute as @e[tag=de_trghr5hrthb,tag=00] at @s run function dream_edit:0/area_runer/noise/5
 kill @e[tag=de_trghr5hrthb]

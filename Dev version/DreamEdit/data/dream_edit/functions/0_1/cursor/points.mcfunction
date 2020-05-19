@@ -1,3 +1,31 @@
+function dream_edit:player/hide_entity
+function dream_edit:player/call_entity
+scoreboard players operation tmp0 de_cache = @s de_cursor_max
+scoreboard players operation tmp1 de_cache = @s de_cursor_may
+scoreboard players operation tmp2 de_cache = @s de_cursor_maz
+scoreboard players operation tmp0 de_cache += @s de_cursor_mix
+scoreboard players operation tmp1 de_cache += @s de_cursor_miy
+scoreboard players operation tmp2 de_cache += @s de_cursor_miz
+scoreboard players set tmp3 de_cache 2
+scoreboard players operation tmp0 de_cache /= tmp3 de_cache
+scoreboard players operation tmp1 de_cache /= tmp3 de_cache
+scoreboard players operation tmp2 de_cache /= tmp3 de_cache
+scoreboard players operation @s de_clo_box0 = @s de_cursor_max
+scoreboard players operation @s de_clo_box1 = @s de_cursor_may
+scoreboard players operation @s de_clo_box2 = @s de_cursor_maz
+scoreboard players operation @s de_clo_box00 = @s de_cursor_mix
+scoreboard players operation @s de_clo_box10 = @s de_cursor_miy
+scoreboard players operation @s de_clo_box20 = @s de_cursor_miz
+scoreboard players operation @s de_clo_box0 -= tmp0 de_cache
+scoreboard players operation @s de_clo_box1 -= tmp1 de_cache
+scoreboard players operation @s de_clo_box2 -= tmp2 de_cache
+scoreboard players operation @s de_clo_box00 -= tmp0 de_cache
+scoreboard players operation @s de_clo_box10 -= tmp1 de_cache
+scoreboard players operation @s de_clo_box20 -= tmp2 de_cache
+execute if score @s de_clo_box0 > @s de_clo_box00 run function dream_edit:0_1/cursor/point/fx
+execute if score @s de_clo_box2 < @s de_clo_box20 run function dream_edit:0_1/cursor/point/fz
+execute unless score @s de_clstf_y matches 1.. if score @s de_clo_box1 > @s de_clo_box10 run function dream_edit:0_1/cursor/point/fy
+
 execute store result score rotat de_cache run data get entity @s Rotation[0]
 scoreboard players operation rotat de_cache += @s de_clstr
 scoreboard players operation rotat de_cache += @s de_clstsr
@@ -36,7 +64,7 @@ execute if score @s de_clstf_x matches 1.. run scoreboard players operation @s d
 execute if score @s de_clstf_z matches 1.. run scoreboard players operation @s de_cl2 = fliez de_cache
 execute if score @s de_clstf_x matches 1.. run scoreboard players operation @s de_cl3 = fiex de_cache
 execute if score @s de_clstf_z matches 1.. run scoreboard players operation @s de_cl5 = fiez de_cache
-execute if score @s de_clstf_y matches 1.. run function dream_edit:0_1/cursor/fly
+
 execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=0] Pos[0] double 1.0 run scoreboard players get @s de_cl3
 execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=0] Pos[1] double 1.0 run scoreboard players get @s de_cl4
 execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=0] Pos[2] double 1.0 run scoreboard players get @s de_cl5
@@ -61,3 +89,4 @@ execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=6] Pos[2] double 1
 execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=7] Pos[0] double 1.0 run scoreboard players get @s de_cl0
 execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=7] Pos[1] double 1.0 run scoreboard players get @s de_cl1
 execute store result entity @e[tag=de_49tprewrwef,limit=1,tag=7] Pos[2] double 1.0 run scoreboard players get @s de_cl2
+function dream_edit:player/hide_entity

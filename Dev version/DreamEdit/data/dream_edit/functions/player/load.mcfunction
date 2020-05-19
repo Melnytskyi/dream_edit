@@ -5,5 +5,3 @@ scoreboard players add #id de_pid 0
 scoreboard players operation @s de_pid = #id de_pid
 scoreboard players add #id de_pid 1
 function dream_edit:0/point/r
-advancement grant @s only gparcade:gparcade
-advancement grant @s only gparcade:dream_edit

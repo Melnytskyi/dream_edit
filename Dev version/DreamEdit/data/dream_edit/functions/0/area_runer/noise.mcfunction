@@ -9,7 +9,7 @@ bossbar set de_progress players @s
 function dream_edit:0/cursor/f
 summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_vrjrjrjrjrjp"]}
 function dream_edit:main_lib/on_op
-execute if score chunk de_cache matches 0 run function dream_edit:0/menu_null
-execute as @e[tag=de_vrjrjrjrjrjp] unless score chunk de_cache matches 0 run function dream_edit:0/area_runer/smooth/1
+execute if score chunk de_cache matches 0 run function dream_edit:menu_null
+execute as @e[tag=de_vrjrjrjrjrjp] unless score chunk de_cache matches 0 run function dream_edit:0/area_runer/noise/1
 tag @s remove de_3op3dze4c
 function dream_edit:main_lib/under_op

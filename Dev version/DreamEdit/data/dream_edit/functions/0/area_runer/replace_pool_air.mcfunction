@@ -12,7 +12,7 @@ function dream_edit:0/cursor/f
 summon area_effect_cloud ~ ~ ~ {Duration:-20,Tags:["de_vrjrjrjrjrjp"]}
 function dream_edit:main_lib/on_op
 execute unless entity @e[tag=de_rpool] run tellraw @s ["",{"text":"Error : not selected Replace Pool","color":"red","bold":true}]
-execute if score chunk de_cache matches 0 run function dream_edit:0/menu_null
+execute if score chunk de_cache matches 0 run function dream_edit:menu_null
 scoreboard players set message de_cache 1
 execute as @e[tag=de_vrjrjrjrjrjp] unless score chunk de_cache matches 0 if entity @e[tag=de_rpool] run function dream_edit:0/area_runer/replace_pool_air/1
 tag @s remove de_3op3dze4c

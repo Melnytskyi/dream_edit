@@ -1,4 +1,5 @@
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
+execute as @s[scores={de_clstfi=0}] run function dream_edit:0_1/cursor/points
 scoreboard players add @s de_clst_air 0
 scoreboard players add @s de_clstfi 0
 scoreboard players add @s de_clstf_x 0
@@ -17,9 +18,9 @@ scoreboard players set @s[scores={de_clstf_z=..0}] de_clstf_z 0
 tellraw @s ["",{"text":"{{","color":"dark_green","bold":true},{"text":"Dream Clone","color":"dark_aqua","bold":true},{"text":"}}\n","color":"dark_green","bold":true}]
 tellraw @s[scores={de_clst_air=1}] ["",{"translate":"dream_edit.clone.air","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/clone_air"},"color":"dark_green"}]
 tellraw @s[scores={de_clst_air=0}] ["",{"translate":"dream_edit.clone.air","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/clone_air"},"color":"dark_red"}]
-tellraw @s[scores={de_clstfi=1}] ["",{"translate":"dream_edit.fixate","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/clone_fixate"},"color":"dark_green"}]
-tellraw @s[scores={de_clstfi=1}] ["",{"translate":"dream_edit.fixateandreset","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/rm"},"color":"dark_green"}]
-tellraw @s[scores={de_clstfi=0}] ["",{"translate":"dream_edit.fixate","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/clone_fixate"},"color":"dark_red"}]
+tellraw @s[scores={de_clstfi=1}] ["",{"translate":"dream_edit.menu.fixate","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/clone_fixate"},"color":"dark_green"}]
+tellraw @s[scores={de_clstfi=1}] ["",{"translate":"dream_edit.menu.fixateandreset","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/rm"},"color":"dark_green"}]
+tellraw @s[scores={de_clstfi=0}] ["",{"translate":"dream_edit.menu.fixate","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/clone_fixate"},"color":"dark_red"}]
 tellraw @s[scores={de_clstf_x=0,de_clstf_y=0,de_clstf_z=0}] ["",{"translate":"dream_edit.clone.offset"},{"text":" [X] ","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipx"},"color":"dark_green"},{"text":"[Y] ","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipy"},"color":"dark_red"},{"text":"[Z]","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipz"},"color":"dark_red"}]
 tellraw @s[scores={de_clstf_x=1,de_clstf_y=0,de_clstf_z=0}] ["",{"translate":"dream_edit.clone.offset"},{"text":" [X] ","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipx"},"color":"dark_red"},{"text":"[Y] ","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipy"},"color":"dark_red"},{"text":"[Z]","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipz"},"color":"dark_red"}]
 tellraw @s[scores={de_clstf_x=1,de_clstf_y=1,de_clstf_z=0}] ["",{"translate":"dream_edit.clone.offset"},{"text":" [X] ","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipx"},"color":"dark_red"},{"text":"[Y] ","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipy"},"color":"dark_green"},{"text":"[Z]","clickEvent":{"action":"run_command","value":"/function dream_edit:0_1/menu/flipz"},"color":"dark_red"}]

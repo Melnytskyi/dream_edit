@@ -1,2 +1,0 @@
-execute as @e[type=!player,tag=!de_cursor_click,tag=!de_cursor_click1,distance=..0.5,limit=1] run function dream_edit:2/register
-execute unless entity @e[type=!player,tag=!de_cursor_click,tag=!de_cursor_click1,distance=..0.5] positioned ^ ^ ^0.3 run function dream_edit:2/dora_traveler

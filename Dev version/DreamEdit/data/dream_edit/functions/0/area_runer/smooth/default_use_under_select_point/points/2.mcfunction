@@ -1,0 +1,9 @@
+execute positioned ~ ~ ~ run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~1 ~ ~ run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~1 ~ ~1 run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~ ~ ~1 run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~-1 ~ ~ run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~-1 ~ ~1 run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~-1 ~ ~-1 run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~ ~ ~-1 run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
+execute positioned ~1 ~ ~-1 run function dream_edit:0/area_runer/smooth/default_use_under_select_point/points/1
